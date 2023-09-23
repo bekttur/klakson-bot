@@ -1,0 +1,63 @@
+.ways-input{
+    display: none;
+}
+
+.ways-block{
+    width: 100%;
+}
+
+.ways-item{
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.ways-flex{
+    width: 100%;
+    height: fit-content;
+}
+
+.ways{
+  padding: 8px 6px 10px 6px;
+}
+
+.active1{
+  height: fit-content;
+  padding: 8px 6px 10px 6px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: #479bee;
+  transition: 0.2s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.ways-text-input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f4f4f5;
+}
+
+.ways-text{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.ways-summary{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}

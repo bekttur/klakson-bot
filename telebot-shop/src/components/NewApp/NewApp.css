@@ -1,0 +1,48 @@
+#trees1 {
+  margin-top: 10px;
+}
+
+.horizontal-menu {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+
+.menu-container {
+  display: inline-block;
+  background-color: white;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background-color: #00000000;
+  cursor: pointer;
+  transition: 0.5s all ease;
+
+}
+
+.active01,
+.active02,
+.active03,
+.active04,
+.active05,
+.active06,
+.active07,
+.active08
+{
+  background-color: #479bee;
+  color: white;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}

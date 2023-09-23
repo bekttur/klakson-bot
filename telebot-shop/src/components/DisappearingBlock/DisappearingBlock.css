@@ -1,0 +1,57 @@
+.disappearing-block {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.disappearing-block {
+    /* background-image: url("../../../public/images/image.jpg"); */
+    background-size: cover;
+
+}
+
+.icon-img {
+    width: 30px;
+}
+
+.disappearing-item {
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.disappearing-icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.disappearing-main-text {
+    text-align: center;
+    line-height: 15px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.icon-item{
+    text-align: center;
+}
