@@ -25,9 +25,9 @@ export const PaymentPage = ({ totalPrice, setTotalPrice, totalCount, setTotalCou
                     </div>
                 </div>
             </div>
-            {/* <div className='for-close-btn'>
-                <button className='close-btn' onClick={closeWebPage}>Закрыть</button>
-            </div> */}
+            <div className='for-close-btn'>
+                <button className='close-btn' onClick={() => { window.location.href = '/'}}>Перейти на главную</button>
+            </div>
         </div>
     )
 }
