@@ -144,7 +144,7 @@ export const Checkout = ({ data, userId, totalPrice, setTotalPrice, totalCount, 
                 if (item.idproducts == product.id) {
                     residualQuantity = item.quantities - product.count;
 
-                    axios.post('https://klakson.coursemoodle.online/api/api/update-data', { id: product.id, residualQuantity: residualQuantity })
+                    axios.post('https://klakson.strattonit.ru/api/api/update-data', { id: product.id, residualQuantity: residualQuantity })
                         .then(response => {
                             console.log(response.data);
                         })
